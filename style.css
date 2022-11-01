@@ -66,3 +66,15 @@ body{
     background-color: bisque;
     color: red;
 }
+.wrapper{
+    margin: 10px auto;
+    margin-left: 28%;
+    padding: 20px;
+    
+    
+}
+.image{
+    width: 450px;
+    height: 350px;
+}
+   
