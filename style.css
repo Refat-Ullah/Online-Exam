@@ -5,6 +5,7 @@ body{
 body{
    margin-left: 350px;
    margin-right: 350px;
+   border: 0.1px solid rgb(224, 224, 224);
 }
 *{
     margin: 0;
@@ -70,12 +71,13 @@ body{
     margin: 10px auto;
     margin-left: 28%;
     padding: 20px;
-    background-color: aliceblue;
+   box-shadow: 3px 3px 5px rgb(175, 175, 175), -3px -3px 5px rgb(255, 255, 255);
     width: 450px;
 }
 .image{
     width: 450px;
     height: 350px;
+    margin-right: 10px;
     
 }
 .card-image{
@@ -120,4 +122,14 @@ h3{
         justify-content: space-evenly;
         margin-top: 60px;
     }
+ .btn a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 700;
    
+ }
