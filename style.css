@@ -70,11 +70,54 @@ body{
     margin: 10px auto;
     margin-left: 28%;
     padding: 20px;
-    
-    
+    background-color: aliceblue;
+    width: 450px;
 }
 .image{
     width: 450px;
     height: 350px;
+    
 }
+.card-image{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: tomato;
+    display: block;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+.absolute1{
+    position: absolute;
+    background-color: tomato;
+    border-radius: 50%;
+    padding: 20px;
+   right: 30px;
+  top: 30px;
+  color: white;
+  font-weight: 700;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.city{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-right: 95px;
+    color: tomato;
+}
+    .flex{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+    }
    
